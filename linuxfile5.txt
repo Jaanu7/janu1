@@ -1,0 +1,20 @@
+Flags:
+	
+	Source Side Archive / Compression file Creation:
+	
+		-c 		Create a new archive  .tar
+		-v		Verbose Output (display all the contents - archive)
+		-f file.tar.gz  - Use archive file as name
+		-z 		Apply this compression technique (gzip)   .tar.gz
+		-j 		Apply this compression technique (bzip2)  .tar.bz2
+
+
+	Destination Side : decompress / extract all contents :
+
+		-x		Extract of all files from the archive
+		-t 		display list all the contents in an archive
+		-v 		verbose output 
+		-f file.tar.gz   Use archive file name 
+		--exclude : Exclude files matching PATTERN/ DIR/FILENAME
+		-j
+		-z

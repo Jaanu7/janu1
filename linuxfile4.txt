@@ -1,0 +1,6 @@
+clone:bring a reposity that is hosted somewhere like github into a folder on your local machine
+add:Track your files and change in git 
+commit:save your files in git
+push :upload git commits to a remote repo, like github
+pull:download changes from remote repo to your local machine
+ls _ta:list the files /folders

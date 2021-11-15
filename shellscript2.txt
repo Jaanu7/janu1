@@ -1,0 +1,14 @@
+$ cat hari.sh
+if grep "UNIX" janu.sh >/dev/null
+then
+   echo "UNIX occurs in file"
+elif grep "DOS" janu.sh >/dev/null
+then
+   echo "unix does not occur,but DOS does"
+else
+   echo "Nobody is there"
+fi
+$ ./hari.sh
+UNIX occurs in file
+$ 
+

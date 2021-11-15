@@ -1,0 +1,16 @@
+#!/bin/bash
+# timestable - print out a multiplication table
+for i in 1 
+do 
+for j in 6 
+do 
+value='exp $i\*$j'
+echo -n "$value"
+done
+echo
+done
+$ ./prabhas.sh
+
+out put:
+exp $i\*$j
+$ 

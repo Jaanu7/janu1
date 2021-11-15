@@ -1,0 +1,21 @@
+vi janu.sh
+$ vi janu.sh
+$ chmod u+x janu
+chmod: cannot access 'janu': No such file or directory
+$ chmod u+x janu.sh
+$ ls -l
+total 4
+-rwxr--r-- 1 root root 140 Nov 15 13:07 janu.sh
+vi janu.sh
+#!/bin/bash
+if grep "UNIX" myfile >/dev/null
+then
+   echo UNIX occurs in myfile 
+else
+   echo no!
+   echo UNIX does not occur  in myfile 
+fi
+$ ./janu.sh
+grep: myfile: No such file or directory
+no!
+UNIX does not occur in myfile

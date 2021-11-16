@@ -1,0 +1,10 @@
+#!/bin/bash
+# file-poke - tell us stuff about files
+for i in *; do
+echo -n "janui "
+grep $i $i
+done
+
+output :
+$ ./teja.sh
+janui $ 

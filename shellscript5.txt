@@ -1,0 +1,13 @@
+if grep unix contessa.sh
+then
+:
+else
+echo "Sorry, unix was not founf"
+fi
+
+output
+
+$ ./contessa.sh
+if grep unix contessa.sh
+echo "Sorry, unix was not founf"
+$ 

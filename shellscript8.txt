@@ -1,0 +1,17 @@
+#!/bin/bash
+smallest=100
+for i in 5 8  9 4;do
+if test $i -It $smallest; then
+smallest=$i
+fi
+done
+echo $smallest
+output 
+
+$ ./file3.sh
+./file3.sh: line 4: test: -It: binary operator expected
+./file3.sh: line 4: test: -It: binary operator expected
+./file3.sh: line 4: test: -It: binary operator expected
+./file3.sh: line 4: test: -It: binary operator expected
+100
+$ 

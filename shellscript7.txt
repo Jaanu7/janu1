@@ -1,0 +1,14 @@
+#!/bin/bash
+if test -z $REMOTEHOST
+then
+echo "janu"
+else
+DISPLAY="$REMOTEHOST:0"
+export DISPLAY
+fi
+output 
+
+$ ./hari.sh
+janu
+$ 
+     

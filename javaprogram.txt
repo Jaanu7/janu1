@@ -1,0 +1,117 @@
+ 
+FIRST PROGRAM
+
+public Demo
+{
+ public static void main(String args[])
+{
+ System.out.println("Hello world");
+ System.out.println("Hello Java");
+ }
+}
+ 
+OUTPUT:
+
+Hello world
+Hello Java
+ 
+
+SECOND PROGRAM
+
+import java.util.Scanner;
+class Evenodd
+{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+ int n=sc.nextInt();
+ if(n%2==0)
+ {
+   if((n>=2 && n<5) ||n>20)
+   {
+    System.out.println("not weird");
+   }
+   else if(n>=6 && n<=20)
+   {
+    System.out.println("weird");
+   }
+   else
+   {
+    System.out.println("not weird");
+   }
+}
+ else
+  {
+   System.out.println("weird");
+  } 
+}
+}
+
+output:
+2
+not weird
+6
+weird
+24
+not weird
+55
+weird 
+
+FIFTH PROGRAM
+
+import java.util.Scanner;
+class Table
+{
+public static void main(String args[])
+{
+int result;
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter number");
+int n=sc.nextInt();
+for(int i=1;i<=10;i++)
+{
+result=n*i;
+System.out.println(n +"*"+ i +"="+result);
+}
+}
+}
+
+
+Output:
+
+Enter number
+5
+5*1=5
+5*2=10
+5*3=15
+5*4=20
+5*5=25
+5*6=30
+5*7=35
+5*8=40
+5*9=45
+5*10=50
+
+THIRD PROGRAM
+
+import java.util.Scanner;
+public class Standard
+{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+int a=sc.nextInt();
+double c=sc.nextDouble();
+String b=sc.nextLine();
+System.out.println("string:"+b);
+System.out.println("double:"+c);
+System.out.println("int:"+a);
+}
+}
+
+output:
+
+10 11.02 happylearning
+string: happylearning
+double:11.02
+int:10
